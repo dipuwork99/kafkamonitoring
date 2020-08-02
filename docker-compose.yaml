@@ -60,3 +60,5 @@ services:
       - "9000:9000"
     environment:
       KAFKA_BROKERCONNECT: broker:29092
+      TOPIC_DELETEENABLED: "false"
+      TOPIC_CREATEENABLED: "false"
